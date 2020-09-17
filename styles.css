@@ -143,3 +143,9 @@ a {
 .show {
   left: 0;
 }
+
+/* active link */
+.active {
+  color: var(--white-color);
+}
+

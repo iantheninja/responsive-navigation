@@ -21,15 +21,38 @@
           <div class="nav-img">
             <img src="small-photo.jpg" alt="logo image">
           </div>
-          <p class="nav-name">Ian <br> Munene</p>
+          <div>
+            <span class="nav-name">Ian</span>
+            <span class="nav-name">Munene</span>
+          </div>
         </a>
 
         <div class="nav-menu">
           <ul class="nav-list">
-            <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active" id="nav_link">Home</a></li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-link">About <i class="bx bx-chevron-down dropdown-icon"></i></a>
+
+              <ul class="dropdown-menu">
+                <li class="dropdown-item"><a href="#" class="nav-link">About me</a></li>
+                <li class="dropdown-item"><a href="#" class="nav-link">Location</a></li>
+                <li class="dropdown-item"><a href="#" class="nav-link">Studies</a></li>
+              </ul>
+            </li>
+
             <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-link">Work<i class="bx bx-chevron-down dropdown-icon"></i></a>
+
+              <ul class="dropdown-menu">
+                <li class="dropdown-item"><a href="#" class="nav-link">Recent jobs</a></li>
+                <li class="dropdown-item"><a href="#" class="nav-link">Other jobs</a></li>
+                <li class="dropdown-item"><a href="#" class="nav-link">Work awards</a></li>
+              </ul>
+
+            </li>
             <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
           </ul>
         </div>
