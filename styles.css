@@ -149,3 +149,32 @@ a {
   color: var(--white-color);
 }
 
+/* dropdown */
+.dropdown-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdown-icon {
+  font-size: 1.3rem;
+  transition: .5s;
+}
+
+.dropdown-menu {
+  margin: 1rem 0 0 1rem;
+  display: none; 
+}
+
+.dropdown-item {
+  margin: 1rem 0;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown:hover .dropdown-icon {
+  transform: rotate(180deg);
+}
+
